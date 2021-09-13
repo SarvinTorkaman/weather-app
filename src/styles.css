@@ -1,0 +1,108 @@
+.container {
+  margin: 30px auto;
+}
+
+body {
+  background: url("file:///C:/Users/mo/Documents/HTML%20Practice/shecodes%20plus/Homework%20week%205/media/background.jpg");
+  background-size: cover;
+  font-family: "Source Sans Pro", sans-serif;
+}
+a {
+  text-decoration: none;
+  text-align: center;
+}
+
+.searchResultCity,
+.searchResultTemp,
+.searchResultIcon,
+.extraInfo,
+.date,
+.day,
+.temp,
+.icon,
+.center,
+p,
+a {
+  text-align: center;
+}
+
+.col-5 {
+  width: 32.666667%;
+}
+.row {
+  max-width: 100%;
+}
+.form-control {
+  font-size: 1rem;
+  line-height: 2;
+  border-radius: 0.5rem;
+  border: 1px solid #a8afb5;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #939597;
+}
+
+.card-body {
+  padding: 2rem 2rem;
+  background: rgb(137 170 177 / 33%);
+}
+.searchResultCity {
+  font-size: 40px;
+}
+.searchResultTemp {
+  font-size: 50px;
+}
+.searchResultIcon {
+  font-size: 60px;
+}
+
+p {
+  margin-top: 20px;
+}
+p.iconInfo {
+  font-size: 20px;
+
+  margin-top: 20px;
+}
+
+.extraInfo {
+  font-size: small;
+  /*  */
+}
+
+.rightGrid {
+  margin-top: 20px;
+}
+.date {
+  background: rgb(241 231 237 / 79%);
+
+  font-size: small;
+  opacity: 0.8;
+  border-radius: 6px;
+  /* line-height: 25px; */
+}
+.day {
+  font-size: 34px;
+  color: #58767b;
+}
+
+.temp {
+  font-size: 25px;
+  color: #58767b;
+}
+
+.icon {
+  font-size: 30px;
+}
+
+.br-style {
+  border: 3px solid rgba(39, 38, 38, 0.3);
+  border-radius: 30px;
+}
+
+.celciusPosition {
+  position: relative;
+  top: -20px;
+}
