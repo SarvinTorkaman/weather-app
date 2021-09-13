@@ -88,4 +88,4 @@ formSearchInput.addEventListener("submit", handleSearchButton);
 
 let currentLocationbtn = document.querySelector("#current-location-weather");
 currentLocationbtn.addEventListener("click", handleCurrentClick);
-searchCity("new york");
+searchCity("babol");
