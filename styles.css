@@ -1,5 +1,6 @@
 .container {
   margin: 30px auto;
+  margin-bottom: 0;
 }
 
 body {
@@ -14,7 +15,6 @@ a {
 
 .searchResultCity,
 .searchResultTemp,
-.searchResultIcon,
 .extraInfo,
 .date,
 .day,
@@ -49,13 +49,15 @@ a {
   background: rgb(137 170 177 / 33%);
 }
 .searchResultCity {
-  font-size: 40px;
+  font-size: 50px;
+  margin-bottom: 11px;
+}
+.topDownTempPosition {
+  margin-top: 63px;
 }
 .searchResultTemp {
-  font-size: 50px;
-}
-.searchResultIcon {
-  font-size: 60px;
+  font-size: 66px;
+  opacity: 0.8;
 }
 
 p {
@@ -63,38 +65,11 @@ p {
 }
 p.iconInfo {
   font-size: 20px;
-
-  margin-top: 20px;
 }
 
 .extraInfo {
   font-size: small;
-  /*  */
-}
-
-.rightGrid {
-  margin-top: 20px;
-}
-.date {
-  background: rgb(241 231 237 / 79%);
-
-  font-size: small;
-  opacity: 0.8;
-  border-radius: 6px;
-  /* line-height: 25px; */
-}
-.day {
-  font-size: 34px;
-  color: #58767b;
-}
-
-.temp {
-  font-size: 25px;
-  color: #58767b;
-}
-
-.icon {
-  font-size: 30px;
+  opacity: 0.9;
 }
 
 .br-style {
@@ -104,5 +79,16 @@ p.iconInfo {
 
 .celciusPosition {
   position: relative;
-  top: -20px;
+  top: -30px;
+}
+
+.cityAndDatePosition {
+  margin-top: 20px;
+}
+footer {
+  margin-left: 10%;
+}
+.tempResultPosition {
+  padding-top: 10px;
+  text-align: center;
 }

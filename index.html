@@ -6,11 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <link
-      rel="icon"
-      type="image/png"
-      href="undraw_Weather_app_re_kcb1.svg"
-    />
+    <link rel="icon" type="image/png" href="undraw_Weather_app_re_kcb1.svg" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -71,37 +67,32 @@
           <div class="col-sm-12">
             <br />
           </div>
-          <div class="col-sm-5 g-0">
+          <div class="col-sm-5 g-0 cityAndDatePosition">
             <div
-              class="searchResultCity leftGrid"
+              class="searchResultCity "
               id="searchResultCityName"
             ></div>
-            <div class="extraInfo leftGrid">
-              <br />
-              Humidity: <span id="humidity"> </span>
-              <br />
-              Wind: <span id="wind"></span>
-            </div>
+
+            <div class="extraInfo" id="dayAndTime"></div>
           </div>
 
-          <div class="col-sm-2 g-0 center">
+          <div class="col-sm-2 g-0 tempResultPosition">
             <span id="temp" class="searchResultTemp"></span>
             <a id="celcius" class="celciusPosition" href="#"> °C </a>
-
-            <div class="extraInfo" id="dayAndTime">
-              <br />
-            </div>
+            <p class="form-text iconInfo" id="weather-description"></p>
           </div>
 
-          <div class="col-sm-5 g-0">
-            <div class="searchResultIcon rightGrid">
-              <p
-                class="form-text iconInfo rightGrid"
-                id="weather-description"
-              ></p>
-              <div class="extraInfo rightGrid">
+          <div class="col-sm-5 g-0 topDownTempPosition">
+            
+              <div class="extraInfo">
                 <span id="max-temp"></span>° 🔼 / <span id="min-temp"></span>°
                 🔽
+              </div>
+              <div class="extraInfo">
+                <br />
+                Humidity: <span id="humidity"> </span>
+                <br />
+                Wind: <span id="wind"></span>
               </div>
             </div>
           </div>
@@ -109,9 +100,14 @@
             <br />
             <br />
           </div>
-
-        
+        </div>
       </div>
+      <footer>
+        <a href="https://github.com/SarvinTorkaman/weather-app" target="_blank"
+          >Open Source code</a
+        >
+        ,by Sarvin Torkamanzadeh
+      </footer>
     </div>
     <script src="index.js"></script>
   </body>
